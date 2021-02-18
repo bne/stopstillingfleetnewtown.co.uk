@@ -3,3 +3,5 @@ exclude:
   - Gemfile.lock
   - README.md
   - vendor
+
+google_tag_manager: GTM-W86HP68
