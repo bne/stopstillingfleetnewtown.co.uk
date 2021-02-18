@@ -3,3 +3,5 @@ exclude:
   - Gemfile.lock
   - README.md
   - vendor
+
+source: _src
