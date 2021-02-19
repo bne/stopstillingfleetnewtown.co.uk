@@ -45,8 +45,8 @@ suggestions:
     <div class="wrapper">
         <div class="top-link"><a href="#top">&#9650;top</a></div>
         <h3>You can help protect the ancient woodlands at Heron Wood and Moreby Wood</h3>
-        <p>Respond to the consultation! The consultation document <a href="https://selby-consult.objective.co.uk/kse/event/36012/section/5532748">can be found here</a>.</p>
-        <p>In <a href="https://selby-consult.objective.co.uk/kse/event/36012/section/s16031069995581#ID-5720374-306">Section 9, Question STIL-D</a> asks:  Do you agree with the potential development of a new settlement at STIL-D? If not, please give the reason for your answer.</p>
+        <p>Respond to the consultation! The consultation document <a href="https://selby-consult.objective.co.uk/kse/event/36012/section/5532748" target="_blank" rel="noopener">can be found here</a>.</p>
+        <p>In <a href="https://selby-consult.objective.co.uk/kse/event/36012/section/s16031069995581#ID-5720374-306" target="_blank" rel="noopener">Section 9, Question STIL-D</a> asks:  Do you agree with the potential development of a new settlement at STIL-D? If not, please give the reason for your answer.</p>
         <p>You can reply saying you do not agree, citing some of the points below.</p>
         <p>Remember: you need to get your response in by 12th March 2021. Copy your local Councillor and let them know your views!</p>
     </div>
