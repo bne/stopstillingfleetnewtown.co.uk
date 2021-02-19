@@ -4,7 +4,7 @@
 $large-breakpoint: 64em !default;
 $medium-breakpoint: 42em !default;
 
-$text-color: #606c71;
+$text-color: #7f8e94;
 $sub-text-color: #c6d4da;
 
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
@@ -39,8 +39,19 @@ body {
   line-height: 1.5;
   color: $text-color;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("/assets/img/DSC_0150.JPG");
-  background-size: contain;
   background-repeat: no-repeat;
+
+  @include large {
+    background-size: contain;
+  }
+
+  @include medium {
+    background-size: auto;
+  }
+
+  @include small {
+    background-size: cover;
+  }
 }
 
 .wrapper {
@@ -65,7 +76,17 @@ body {
   @extend .wrapper;
   text-align: center;
   img {
-    width: 65%;
+    @include large {
+      width: 65%;
+    }
+
+    @include medium {
+      width: 85%;
+    }
+
+    @include small {
+      width: 95%;
+    }
   }
   figcaption {
     color: $sub-text-color;
@@ -95,10 +116,10 @@ body {
 
 a {
   color: #fff;
-  text-decoration: none;
+  text-decoration: underline;
 
   &:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
@@ -119,7 +140,7 @@ a {
   }
 
   .page-navigation {
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
 
     ul {
       display: flex;
@@ -130,7 +151,6 @@ a {
 
       li {
         display: inline-block;
-        white-space: nowrap;
         margin: 0 0 5px 5px;
         padding: 0.75rem 1.5rem;
 
@@ -148,7 +168,6 @@ a {
         }
 
         a {
-          font-size: 1.1em;
           text-transform: uppercase;
           color: #fff;
         }
@@ -157,7 +176,7 @@ a {
   }
 
   h1 {
-    font-size: 3em;
+    font-size: 3rem;
     text-transform: uppercase;
   }
 
@@ -175,20 +194,23 @@ a {
     padding: 3rem 0;
     color: $text-color;
     a {
-      color: $text-color;
+      color: #efa758;
+    }
+    .top-link {
+      margin-top: -2rem;
+      text-align: right;
+      a {
+        color: $text-color;
+      }
     }
   }
   section.section-alt {
     background-color: #21262c;
     color: #fff;
   }
-
-  .top-link {
-    margin-top: -2rem;
-    text-align: right;
-  }
 }
 
 .site-footer {
-  padding: 6rem 0;
+  background-color: #79828d;
+  height: 2rem;
 }
