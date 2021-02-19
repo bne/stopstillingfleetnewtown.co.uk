@@ -1,0 +1,194 @@
+---
+---
+
+$large-breakpoint: 64em !default;
+$medium-breakpoint: 42em !default;
+
+$text-color: #606c71;
+$sub-text-color: #c6d4da;
+
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+@mixin large {
+  @media screen and (min-width: #{$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media screen and (min-width: #{$medium-breakpoint}) and (max-width: #{$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media screen and (max-width: #{$medium-breakpoint}) {
+    @content;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Questrial", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: $text-color;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("/assets/img/DSC_0150.JPG");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  width: clamp(16rem, 90vw, 70rem);
+  margin-left: auto;
+  margin-right: auto;
+
+  @include large {
+    padding: 0 1.5rem;
+  }
+
+  @include medium {
+    padding: 0 0.5rem;
+  }
+
+  @include small {
+    padding: 0.1rem;
+  }
+}
+
+.media-wrapper {
+  @extend .wrapper;
+  text-align: center;
+  img {
+    width: 65%;
+  }
+  figcaption {
+    color: $sub-text-color;
+    font-size: 0.9em;
+  }
+}
+
+#skip-to-content {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+  z-index: 100;
+
+  &:focus {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    height: auto;
+    width: auto;
+
+    background: #000;
+    outline: #000;
+  }
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.page-header {
+  color: #fff;
+  position: relative;
+
+  @include large {
+    padding: 4rem 6rem 8rem;
+  }
+
+  @include medium {
+    padding: 3rem 4rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+  }
+
+  .page-navigation {
+    margin-bottom: 6rem;
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: inline-block;
+        white-space: nowrap;
+        margin: 0 0 5px 5px;
+        padding: 0.75rem 1.5rem;
+
+        &.respond-link {
+          background-color: #d8241e;
+          border-radius: 3px;
+
+          &:hover {
+            background-color: rgba(239, 167, 88, 0.75);
+          }
+          a {
+            color: #fff;
+            text-decoration: none;
+          }
+        }
+
+        a {
+          font-size: 1.1em;
+          text-transform: uppercase;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    color: $sub-text-color;
+    font-weight: normal;
+  }
+}
+
+.main-content {
+  background-color: #fff;
+
+  section.section,
+  section.section-alt {
+    padding: 3rem 0;
+    color: $text-color;
+    a {
+      color: $text-color;
+    }
+  }
+  section.section-alt {
+    background-color: #21262c;
+    color: #fff;
+  }
+
+  .top-link {
+    margin-top: -2rem;
+    text-align: right;
+  }
+}
+
+.site-footer {
+  padding: 6rem 0;
+}

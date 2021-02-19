@@ -24,27 +24,37 @@
     <meta name="theme-color" content="#ffffff">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
 {% seo %}
   </head>
   <body>
-
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-    <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+    <header class="page-header" role="banner" id="top">
+      <div class="wrapper">
+
+        <nav class="page-navigation">
+          <ul>
+            <li><a href="#plan">Selby District Local Plan</a></li>
+            <li class="respond-link"><a href="#respond">How to respond</a></li>
+          </ul>
+        </nav>
+
+        <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+        <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      </div>
     </header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
-
-      <footer class="site-footer">
-
-      </footer>
     </main>
+
+    <footer class="site-footer">
+      <div class="wrapper">
+
+      </div>
+    </footer>
 
     <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
   </body>
