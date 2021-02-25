@@ -26,17 +26,9 @@ suggestions:
 <section class="section-alt">
     <div class="media-wrapper">
         <div class="top-link"><a href="#top">&#9650;top</a></div>
-<<<<<<< Updated upstream
         <img src="/assets/img/5755810_0_1.jpg" alt="Preferred Allocations_STIL-D" />
         <figcaption>Indicative dwelling capacity: up to 3,000 Dwellings (1,260 of which are projected to be built within the plan period)
         <br />The proposed site for a new settlement is located to the south west of Escrick Village to the East of the Former Selby Mine.</figcaption>
-=======
-        <figure>
-            <img src="/assets/img/5755810_0_1.jpg" alt="Preferred Allocations_STIL-D" />
-            <figcaption>Indicative dwelling capacity: up to 3,000 Dwellings (1,260 of which are projected to be built within the plan period)</figcaption>
-        </figure>
-        <p>The proposed site for a new settlement is located to the south west of Escrick Village to the East of the Former Selby Mine. The land is currently used for agriculture and is in single ownership.</p>
->>>>>>> Stashed changes
     </div>
 </section>
 <section class="section">
