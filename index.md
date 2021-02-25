@@ -26,9 +26,17 @@ suggestions:
 <section class="section-alt">
     <div class="media-wrapper">
         <div class="top-link"><a href="#top">&#9650;top</a></div>
+<<<<<<< Updated upstream
         <img src="/assets/img/5755810_0_1.jpg" alt="Preferred Allocations_STIL-D" />
         <figcaption>Indicative dwelling capacity: up to 3,000 Dwellings (1,260 of which are projected to be built within the plan period)
         <br />The proposed site for a new settlement is located to the south west of Escrick Village to the East of the Former Selby Mine.</figcaption>
+=======
+        <figure>
+            <img src="/assets/img/5755810_0_1.jpg" alt="Preferred Allocations_STIL-D" />
+            <figcaption>Indicative dwelling capacity: up to 3,000 Dwellings (1,260 of which are projected to be built within the plan period)</figcaption>
+        </figure>
+        <p>The proposed site for a new settlement is located to the south west of Escrick Village to the East of the Former Selby Mine. The land is currently used for agriculture and is in single ownership.</p>
+>>>>>>> Stashed changes
     </div>
 </section>
 <section class="section">
@@ -60,5 +68,40 @@ suggestions:
             <li>{{ suggestion }}</li>
         {% endfor %}
         </ul>
+    </div>
+</section>
+<section class="section-alt">
+    <div class="media-wrapper">
+        <div class="top-link"><a href="#top">&#9650;top</a></div>
+        <h3>Additional threats to both Heron Wood and Moreby Wood, as well as to the surrounding countryside</h3>
+        <figure id="threat-map">
+            <img src="/assets/img/threat-map.png" alt="Map of Heron Wood, Moreby Wood, and the surrounding countryside" />
+        </figure>
+    </div>
+</section>
+<section class="section">
+    <div class="wrapper">
+        <div class="top-link"><a href="#top">&#9650;top</a></div>
+        <h3>Proposed Waste Transfer (and recycling) Site - Marked 1 on <a href="#threat-map">the map</a></h3>
+        <p>The proposed Waste Transfer site on land at the former Stillingfleet mine is still under consideration by North Yorkshire County Council, despite the fact that a previous planning condition was the reinstatement of agricultural land on the site after the mine closed.</p>
+        <p>The Planning Officer has recommended that it goes ahead and has suggested a limit of 50 HGV’s A DAY in/out of the site via the Escrick to Stillingfleet road (C307). </p>
+        <p>The demolition, building waste and plasterboard is intended to be stored outside and inevitably dust, noise and water course pollution will ensue. This will just be the start of activities on the site, if approved. </p>
+        <p>This was up for approval at the Planning Meeting on 22nd February 2021, but has been postponed until the next meeting. There is still time to object – just!</p>
+        <p>For more information, go to <a href="https://onlineplanningregister.northyorks.gov.uk/register/PlanAppDisp.aspx?recno=10129" target="_blank" rel="noopener">https://onlineplanningregister.northyorks.gov.uk/register/PlanAppDisp.aspx?recno=10129</a> and submit your objection quickly.</p>
+    </div>
+</section>
+<section class="section-alt">
+    <div class="wrapper">
+        <div class="top-link"><a href="#top">&#9650;top</a></div>
+        <h3>Clay Extraction Site – marked 4 on <a href="#threat-map">the map</a> (Planning Approval given July 2020)</h3>
+        <p>During 2020 planning approval was granted to Plasmor Ltd for a large clay extraction quarry, on land to the north and west of the former Escrick quarry (<a href="#threat-map">marked 3</a>). This land is currently agricultural land and spans both sides of the cycle route, just south of Heron wood. Activities will likely affect the water table (impacting the surrounding trees), as well as disturbing the local wildlife and flora due to noise, dust, waste, etc. </p>
+        <p>The application was granted on the basis that the land be returned to agriculture or to a wetland after clay extraction ceases. </p>
+        <p>In the meantime untold damage will be inflicted and the landscape will never be the same again. Who’s to say that the conditions will even be met - already permission has been given to vary the infill conditions at the previous quarry site.  </p>
+        <p>It’s too late to stop the quarry, but it’s not too late to stop the Waste Transfer Site or the Housing Development. </p>
+    </div>
+</section>
+<section class="section">
+    <div class="wrapper">
+        <h2>Act now to protect your countryside and to protect local Ancient Woodlands!</h2>
     </div>
 </section>
