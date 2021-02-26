@@ -19,7 +19,7 @@ suggestions:
         <p>Selby District Council is consulting right now on a New Local Plan for growth in the district up to 2040.</p>
         <p>The consultation ends on <strong>March 12th 2021</strong>.</p>
         <p>In that Plan there are three different options for large scale new housing development.</p>
-        <p>One of those options - called STIL-D - is to build 1260 new homes, rising to 3000 eventually, on a greenfield site west of the A19 south of the Escrick-Stillingfleet Road.</p>
+        <p>One of those options - called STIL-D - is to build <strong>3000</strong> new homes, on a greenfield site west of the A19 south of the Escrick-Stillingfleet Road.</p>
         <p>The other possible new settlement sites are at Burn airbase and Church Fenton airbase, both brownfield sites.</p>
     </div>
 </section>
